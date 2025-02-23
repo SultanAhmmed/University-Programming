@@ -1,0 +1,30 @@
+#include<stdio.h>
+
+int main()
+{
+
+    int num1,num2,temp1,temp2;
+    int rem,LCM,GCD;
+    printf("Enter two Value for GCD,LCM: ");
+    scanf("%d %d",&num1,&num2);
+
+    temp1 = num1;
+    temp2 = num2;
+
+    //Find GCD
+
+    while(temp2!=0)
+    {
+        rem = temp1%temp2;
+        temp1 = temp2;
+        temp2 =rem;
+    }
+    GCD = temp1;
+    printf("GCD: %d\n",GCD);
+
+    //LCM
+    LCM = (num1*num2)/GCD;
+    printf("LCM: %d\n",LCM);
+
+    return 0;
+}

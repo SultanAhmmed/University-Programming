@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include<math.h>
+int main(void)
+{
+    // Logarithms of an Number
+    double num;
+    printf("Enter an Number: ");
+    scanf("%lf",&num);
+
+    double result = round(num);
+    printf("Round value(%.2lf): %.3lf\n",num,result);
+
+    double result1 = trunc(num);
+    printf("Trunc Value(%.2lf): %.3lf\n",num,result1);
+
+    double result2 = floor(num);
+    printf("Floor Value(%.2lf): %.3lf\n",num,result2);
+
+    double result3 = ceil(num);
+    printf("Ceil Value(%.2lf): %.3lf\n",num,result3);
+
+
+    return 0;
+}

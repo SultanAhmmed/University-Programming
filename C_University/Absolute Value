@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main(void) {
+  // Absolute Value
+  int num;
+  printf("Enter an Number: ");
+  scanf("%d",&num);
+
+  printf("The Absolute value: %d\n",abs(num));
+  return 0;
+}

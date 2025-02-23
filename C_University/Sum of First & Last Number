@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    int num;
+    printf("Enter an Value: ");
+    scanf("%d",&num);
+    int i;
+    int lastNumber = num%10;
+    while(num>=10){
+        num = num / 10;
+    }
+    printf("Sum of First and Last Number: %d",num+lastNumber);
+    return 0;
+}

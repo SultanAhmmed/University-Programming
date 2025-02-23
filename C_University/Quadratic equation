@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<math.h>
+int main(){
+
+    float a,b,c;
+    float root1,root2;
+    float quardatic,image;
+
+    printf("Enter Value of a,b,c: ");
+    scanf("%f %f %f",&a,&b,&c);
+    quardatic =pow(b,2) - (4*a*c);
+    if(quardatic>0){
+        root1 = (-b+sqrt(quardatic))/(2*a);
+        root2 = (-b-sqrt(quardatic))/(2*a);
+        printf("Two distinct and real roots exists: %.2f %.2f\n",root1,root2);
+    }
+    else if(quardatic==0){
+        root1 = root2 = -b/2*a;
+        printf("The equal and two distinct Exists: %.2f\n",root1);
+    }
+    else{
+        root1 = root2 = -b/2*a;
+        image = sqrt(-quardatic)/2*a;
+        printf("Two distinct complex root exits: %.2f + i%.2f and %.2f - i%.2f\n",root1,image,root2,image);
+    }
+    return 0;
+}

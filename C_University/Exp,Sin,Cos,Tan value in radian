@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include<math.h>
+int main(void)
+{
+    // Logarithms of an Number
+    double num,angle;
+    printf("Enter an Number for Exponential: ");
+    scanf("%lf",&num);
+
+    printf("Enter an value of Angle Value: ");
+    scanf("%lf",&angle);
+
+    double result = exp(num);
+
+    double result2 = sin(angle);
+    double result3 = cos(angle);
+    double result4 = tan(angle);
+
+    printf("The result of Exponential: %.2lf\n",result);
+    
+    //ALL Angle Outputs are in Radian
+    printf("The result of Sin(): %.2lf\n",result2);
+    printf("The result of Cos(): %.2lf\n",result3);
+    printf("The result of Tan(): %.2lf\n",result4);
+
+    return 0;
+}

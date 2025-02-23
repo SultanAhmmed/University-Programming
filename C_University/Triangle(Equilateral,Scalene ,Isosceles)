@@ -1,0 +1,20 @@
+#include<stdio.h>
+#define TRIANGLE_ANGLE 180
+int main(){
+
+    //Creating variables
+    int side1,side2,side3;
+    printf("Enter sides: ");
+    scanf("%d %d %d",&side1,&side2,&side3);
+
+    if(side1== side2&&side2==side3){
+        printf("Triangle is equilateral triangle\n");
+    }
+    else if(side1==side2|| side2 == side3 && side1 ==side3){
+        printf("Triangle is Isosceles triangle\n");
+    }
+    else{
+        printf("Triangle is Scalene triangle\n");
+    }
+    return 0;
+}

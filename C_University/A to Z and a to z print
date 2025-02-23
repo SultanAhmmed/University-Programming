@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int n,i=97;
+    
+    //printf("Enter an Number: ");
+    //scanf("%d",&n);
+    int j = 65;
+    while((j<=90) &&(i<=122)){
+        printf("%c \t %c\n",j,i);
+        j++;
+        i++;
+    }
+    return 0;
+}

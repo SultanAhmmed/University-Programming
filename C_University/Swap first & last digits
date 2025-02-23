@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include<math.h>
+int main()
+{
+    //read number
+    int num;
+    int lastDigit, firstDigit,swapedNumber,digits;                                                                           
+    printf("Enter an Number: ");
+    scanf("%d",&num);
+    
+    digits= (int) log10(num);
+    firstDigit = (int) num/pow(10,digits);
+    lastDigit = (int) (num%10);
+    swapedNumber = (lastDigit* (int) pow(10,digits));
+    swapedNumber = swapedNumber + num % (int)pow(10,digits);
+    swapedNumber = swapedNumber - lastDigit;
+    swapedNumber = swapedNumber + firstDigit;
+    
+    printf("Orginal Number: %d\n",num);
+    printf("Swap First & Last Number: %d\n",swapedNumber);
+    
+    return 0;
+}

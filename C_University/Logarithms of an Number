@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include<math.h>
+int main(void)
+{
+    // Logarithms of an Number
+    double num;
+    printf("Enter an Number: ");
+    scanf("%lf",&num);
+    
+    double result1 = log(num); // Log base Euler's Number = 2.71828
+    double result2 = log10(num);// Log10 base 10 mostly using it Engineers.
+    
+    printf("The result of Log: %.2lf\n",result1);
+    printf("The result of Log10: %.2lf\n",result2);
+
+    return 0;
+}

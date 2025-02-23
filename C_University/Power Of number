@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include<math.h>
+int main(void)
+{
+    // Square of an Number
+    double num,power;
+    printf("Enter an Number and Power: ");
+    scanf("%lf %lf",&num,&power);
+    double result = pow(num,power);
+
+    printf("The result: %.2lf\n",result);
+    return 0;
+}

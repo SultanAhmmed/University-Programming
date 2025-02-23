@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main(void){
+    int a, b;
+    float result_1, result_2;
+
+    printf("Enter your first number: ");
+    scanf("%d",&a);
+
+
+    printf("Enter your second number: ");
+    scanf("%d",&b);
+
+    // First Program About Quotient
+    result_1 = a / b;
+    printf("Quotient of a and b: %f\n", result_1);
+
+    //Second program  about Remainder
+    result_2 = a % b;
+    printf("Remainder of a and b: %f", result_2);
+
+
+}

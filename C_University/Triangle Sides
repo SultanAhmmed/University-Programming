@@ -1,0 +1,14 @@
+#include<stdio.h>
+#define TRIANGLE_ANGLE 180
+int main(){
+
+    //Creating variables
+    int side1,side2,side3;
+    printf("Enter sides: ");
+    scanf("%d %d %d",&side1,&side2,&side3);
+
+    if(side1+side2>side3||side1+side3>side2||side2+side3>side1){
+        printf("The Triangle is valid\n");
+    }
+    return 0;
+}

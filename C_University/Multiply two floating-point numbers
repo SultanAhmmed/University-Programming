@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main(void){
+    //Declearing the data type of program
+    float a, b, result;
+
+    //Value of variable
+    a = 3.99;
+    b = 6.88;
+
+    //Multiply a and b
+    result = a * b;
+    //This is program final result
+    printf("Multiply two floating point numbers: %f", result);
+}
