@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{
+    double tax,salary;
+
+    scanf("%lf",&salary);
+    if(salary>2000&&salary<=3000){
+        tax = (salary-2000.00)*.08;
+        printf("R$ %.2lf\n",tax);
+    }
+    else if(salary>3000&&salary<=4500){
+        tax=.18*(salary-3000.00)+ 1000*.08;
+        printf("R$ %.2lf\n",tax);
+    }
+    else if(salary>4500){
+        tax = .28*(salary-4500.01)+1500*.18+1000*.08;
+        printf("R$ %.2lf\n",tax);
+    }
+    else{
+        printf("Isento\n");
+    }
+
+    return 0;
+}

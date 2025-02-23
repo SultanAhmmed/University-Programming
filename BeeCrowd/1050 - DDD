@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+    int p_num;
+
+    scanf("%d",&p_num);
+
+    if(p_num==61)printf("Brasilia\n");
+    else if(p_num==71)printf("Salvador\n");
+    else if(p_num==11)printf("Sao Paulo\n");
+    else if(p_num==21)printf("Rio de Janeiro\n");
+    else if(p_num==32)printf("Juiz de Fora\n");
+    else if(p_num==19)printf("Campinas\n");
+    else if(p_num==27)printf("Vitoria\n");
+    else if(p_num==31)printf("Belo Horozonte\n");
+    else printf("DDD nao cadastrado\n");
+
+    return 0;
+}

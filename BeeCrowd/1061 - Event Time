@@ -1,0 +1,39 @@
+#include<stdio.h>
+int main(){
+    int s_d,s_h,s_m,s_s;
+    int e_d,e_h,e_m,e_s;
+    int d_s,h_s,m_s,new_s_s,ed_s,eh_s,em_s,new_e_s;
+    int t_s,days,hours,min,sec;
+    int s,m,h,d;
+
+    scanf("%*s %d",&s_d);
+    scanf("%d %*s %d %*s %d",&s_h,&s_m,&s_s);
+
+    scanf("%*s %d",&e_d);
+    scanf("%d %*s %d %*s %d",&e_h,&e_m,&e_s);
+
+    d_s = s_d*24*60*60;
+    h_s = s_h*60*60;
+    m_s = s_m*60;
+    new_s_s = d_s+h_s+m_s+s_s;
+
+    ed_s =e_d*24*60*60;
+    eh_s = e_h*60*60;
+    em_s = e_m * 60;
+    new_e_s = ed_s + eh_s + em_s + e_s;
+
+    t_s = new_e_s - new_s_s;
+    days = t_s/86400;
+    t_s = t_s%86400;
+    hours = t_s/3600;
+    t_s = t_s%3600;
+    min = t_s/60;
+    sec = t_s%60;
+
+    printf("%d dia(s)\n",days);
+    printf("%d hora(s)\n",hours);
+    printf("%d minuto(s)\n",min);
+    printf("%d segundo(s)\n",sec);
+    return 0;
+}
+

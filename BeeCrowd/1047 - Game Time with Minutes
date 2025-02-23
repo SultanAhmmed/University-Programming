@@ -1,0 +1,27 @@
+#include<stdio.h>
+
+int main()
+{
+    int s_h,s_m,e_h,e_m;
+    int def,hour,min;
+    scanf("%d%d%d%d",&s_h,&s_m,&e_h,&e_m);
+
+    s_m =s_m + (s_h*60);
+    e_m = e_m + (e_h *60);
+
+    def = e_m - s_m;
+    if(def>0)
+    {
+        hour = def /60;
+        min = def%60;
+        printf("O JOGO DUROU %d HORA(S) E %d MINUTO(S)\n",hour,min);
+    }
+    else
+    {
+        def = def + (24*60);
+        hour = def/60;
+        min = def%60;
+        printf("O JOGO DUROU %d HORA(S) E %d MINUTO(S)\n",hour,min);
+    }
+    return 0;
+}
