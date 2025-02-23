@@ -1,0 +1,27 @@
+#include <stdio.h>
+int main()
+{
+    int x = 5;
+    int y = 3;
+    // printf("%d", x==y);
+    // printf("%d", x != y);
+    // printf("%d", x > y);
+    // printf("%d", x < y);
+    // printf("%d", x >= y);
+    // printf("%d", x <= y);
+    // printf("%d\n", x > 3 && x < 10);
+    // printf("%d\n", y >= 3 && y < 5);
+    // printf("%d\n", x > 3 || x < 4);
+    // printf("%d", x > 3 || x == 3);
+    
+    // int myInt;
+    // float myFloat;
+    // double myDouble;
+    // char myChar;
+    // printf("%lu\n", sizeof(myInt));
+    // printf("%lu\n", sizeof(myFloat));
+    // printf("%lu\n", sizeof(myDouble));
+    // printf("%lu\n", sizeof(myChar));
+    // return 0;
+    
+}

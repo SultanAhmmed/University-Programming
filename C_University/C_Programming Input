@@ -1,0 +1,28 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // // Write C code here
+    // // Create an integer variable that will store the number we get from the user
+    // int myNum;
+    // // Ask the user to type a number
+    // printf("Type a number: ");
+    
+    // // Get and save the number the user types
+    // scanf("%d", &myNum);
+    
+    // // Output the number the user typed
+    // printf("Your number is: %d", myNum);
+    
+    // Create a String
+    char firstName[30];
+    
+    // Ask the user to input some text 
+    printf("Enter your first name:");
+    
+    // Get and save the text
+    scanf("%s", firstName);
+    
+    //Out the text
+    printf("Hello %s.", firstName);
+}

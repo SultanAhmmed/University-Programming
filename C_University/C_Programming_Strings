@@ -1,0 +1,15 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    char txt[] = "We are the so-called \"Virkings\" from the north.";
+    char txt2[] = "We are the so-called \'Virkings\' from the north.";
+    char txt3[] = "We are\tthe so-called \\Virkings\\ form the north.";
+    char txt4[] = "We are the so-called \0 Virkings from the north.";
+    printf("%s", txt);
+    printf("\n%s", txt2);
+    printf("\n%s", txt3);
+    printf("\n%s", txt4);
+    return 0;
+}

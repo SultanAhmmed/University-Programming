@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main()
+{
+    // This is Data type
+    double myDoubleNum = 19.99;
+    int myIntegerNum = 45;
+    float myFloatNum = 10.43;
+    char myCharecter = 'S';
+    printf("%lf\n", myDoubleNum);
+    printf("%d\n", myIntegerNum);
+    printf("%f\n", myFloatNum);
+    printf("%c\n", myCharecter);
+// This is data type end
+// This is Constant start
+// Constant variable cant be overrwright 
+  const int minutersPerHours = 60;
+  // minutersPerHours = 70;
+  const float PI = 3.14;
+  printf("%d\n",minutersPerHours);
+  printf("%f", PI);
+  // Alweays try to wright a const variable with uppercase 
+  // This is Constant variable end
+    return 0;
+}

@@ -1,0 +1,28 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+//     int myAge = 43; //an int variable 
+    
+//     printf("%d", myAge); //Outputs the value of myAge (43)
+//     printf("%p", &myAge); //Outputs the memory address memory address of myAge
+ 
+    //  int myAge = 43; //Variable declaration
+    //  int*ptr = &myAge;//A pointer variable, with the name ptr, that stores the address of myAge
+    // //Output the value of myAge (43)
+    // printf("%d\n", myAge);
+
+    // //output the memory address of myAge
+    // printf("%p\n", &myAge);
+
+    // //Output the memory adress of myAge with the pointer
+    // printf("%p\n",ptr);
+    
+    // int myAge = 43; //Variable declaration
+    // int* ptr = &myAge; //Pointer declaration
+    
+    // //Refference: Output the memory address of myAge with the pointer
+    // printf("%p\n", ptr);
+    // //Dereferece: Output the value of myAge with the pointer (43)
+    // printf("%d\n", *ptr);
+}

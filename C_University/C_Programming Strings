@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+ int main(){
+//   char greetings[] = "Hello World!";
+//   printf("%s\n", greetings); // %s use to diclear the strings
+//   printf("%c", greetings[6]); // %c use for format speacifier to print a single character.
+  // char greetings[] = "Hello World";
+  // greetings[0] = 'J';
+  // printf("%s", greetings);
+  
+  // char greetings[] ={'H', 'e', 'l', 'l','o',' ','W', 'o', 'r', 'l','d', '!', '\0'};
+  // printf("%s", greetings);
+  
+  char greetings[] ={'H', 'e', 'l', 'l','o',' ','W', 'o', 'r', 'l','d', '!', '\0'};
+  char greetings2[] = "Hello World!";
+  printf("%lu\n", sizeof(greetings));
+  printf("%lu\n", sizeof(greetings2));
+  
+}
